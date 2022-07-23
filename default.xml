@@ -2,11 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r3"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"
+           sync-d="true"
+           sync-f="true"/>
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r3" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1166,5 +1169,11 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
-  <!-- END open-source projects -->
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- QiMao Changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/qimao.xml" />
+
 </manifest>
