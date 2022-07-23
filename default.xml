@@ -1175,5 +1175,6 @@
   <!-- QiMao Changes -->
   <include name="snippets/remove.xml" />
   <include name="snippets/qimao.xml" />
+  <include name="snippets/arrow.xml" />
 
 </manifest>
