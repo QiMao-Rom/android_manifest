@@ -47,7 +47,6 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="qimao" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="qimao" />
   <project path="external/erofs-utils" name="android_external_erofs-utils" remote="qimao" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="qimao" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="qimao" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="qimao" />
   <project path="external/mksh" name="android_external_mksh" remote="qimao" />
