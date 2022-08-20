@@ -7,11 +7,11 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 
 ### 1. Initialize your local repository
 ```bash
-repo init -u https://github.com/Project-QiMao/android_manifest.git -b seagull
+repo init -u https://github.com/Project-QiMao/android_manifest.git -b tennis
 ```
 or
 ```bash
-repo init -u https://github.com/Project-QiMao/android_manifest.git -b seagull --depth=1
+repo init -u https://github.com/Project-QiMao/android_manifest.git -b tennis --depth=1
 ```
 
 ### 2. Sync up

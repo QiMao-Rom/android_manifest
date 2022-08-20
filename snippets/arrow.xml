@@ -10,20 +10,20 @@
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-12.1" />
+           revision="refs/heads/arrow-13.0" />
 
   <remote  name="ArrowOS-Devices"
            fetch="https://github.com/ArrowOS-Devices"
            review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-12.1" />
+           revision="refs/heads/arrow-13.0" />
 
   <remote  name="arrow-gitlab"
            fetch="https://gitlab.com/arrowos-project"
            review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-12.1" />
+           revision="refs/heads/arrow-13.0" />
 
   <!-- hardware repos -->
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-12.1-caf" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
